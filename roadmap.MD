@@ -1,6 +1,11 @@
-# Backend
+# NodeJs
 
-- Showcase Swagger
+- controllers --> criar funções parseData() e writeData()
+- controllers --> getTodos()
+- routes --> .get '/'
+- atualizar index.js --> rota (api/todos)
+- controllers --> createTodo(), updateTodo(), deleteTodo()
+- routes --> .post '/', .put '/:id', .delete '/:id'
 
 # React
 

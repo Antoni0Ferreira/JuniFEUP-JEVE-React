@@ -6,6 +6,10 @@ const express = require('express')
 const app = express()
 const cors = require("cors");
 const corsOptions = require("./config/corsOptions");
+const swaggerSetup = require('./swagger'); // Adjust the path as necessary
+
+// Set up Swagger
+swaggerSetup(app);
 
 // Port
 const port = process.env.PORT || 3002 // Port can be changed in .env file
